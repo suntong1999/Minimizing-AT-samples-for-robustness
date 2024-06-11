@@ -8,7 +8,7 @@ The repository consists of the following:
   - `test_acc.py`: Code for performing predictions using the ARF method.
   - `generate_and_test.py`: Code for adversarial attack.
   - 'new_gan/model/wgan_C_gan.py': Code for new GAN network.
-  - 'new_gan/train.py': Code for training new GAN.
+  - 'new_gan/train_gan.py': Code for training new GAN.
 
 ## Usage
 
@@ -17,4 +17,4 @@ To use the ARF method and comparison methods, follow the instructions below:
 1. Navigate to the `Minimizing-AT-samples-for-robustness/` directory.
 2. Run `adversarial_train.py` to implement adversarial training.
 3. Use `test_acc.py` to perform predictions using the ARF method.
-4. Use 'new_gan/train.py' to implement GAN training.
+4. Use 'new_gan/train_gan.py' to implement GAN training.
